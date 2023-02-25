@@ -1,0 +1,225 @@
+body {
+    background-color: #0f1424;
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+main {
+    width: 1015px;
+    height: 475px;
+    display: flex;
+    justify-content: center;
+    min-width: 1015px
+}
+
+.profile-img {
+    content: url(/images/image-jeremy.png);
+    border: 2px white solid;
+    border-radius: 100%;
+    width: 70px;
+    margin-bottom: 2rem;
+}
+
+.card__profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: hsl(236, 45%, 19%);
+    height: 448px;
+}
+
+.profile-information {
+    line-height: 33px;
+    background-color: hsl(246, 80%, 60%);
+    padding: 1.75rem;
+    width: 220px;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.profile-information>span {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.profile-information>h1 {
+    font-size: 35px;
+    font-weight: 400;
+    width: 100px;
+}
+
+.timeweek {
+    display: flex;
+    flex-direction: column;
+    padding: 1.75rem;
+}
+
+a {
+    margin: 0.40rem;
+    text-decoration: none;
+    color: hsl(236, 100%, 87%);
+    transition: 0.5s;
+}
+
+.timeweek>a:hover {
+    color: white;
+}
+
+.timeweekcolor{
+    color: white;
+}
+
+/*cards*/
+ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style: none;
+    margin: 0 1rem;
+    width: 192px;
+    height: 170px;
+    border-radius: 10px;
+}
+
+.informations-img {
+    position: relative;
+    overflow: hidden;
+    height: 40px;
+}
+
+.informations-content-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.informations-content {
+    background-color: hsl(236, 45%, 19%);
+    height: 100%;
+    border-radius: 10px;
+    padding: 1.5rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.informations-content-hours {
+    margin: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.informations-content:hover {
+    background-color: hsl(235, 45%, 61%)
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    height: 20px;
+}
+
+#ellipsis{
+    fill:#BBC0FF
+}
+
+button:active>#ellipsis{
+    fill: white;
+}
+
+.hours {
+    font-size: 40px;
+}
+
+.lastWeek {
+    margin-top: 1rem;
+    font-size: 12px;
+    font-weight: 300;
+    color: hsl(236, 100%, 87%);
+}
+
+/*card work*/
+
+.card-work {
+    background-color: hsl(15, 100%, 70%);
+}
+
+.card-work>.informations-img>img {
+    content: url(/images/icon-work.svg);
+    position: absolute;
+    top: -15px;
+    right: 15px;
+}
+
+/*card play*/
+
+.card-play {
+    background-color: hsl(195, 74%, 62%);
+}
+
+.card-play>.informations-img>img {
+    content: url(/images/icon-play.svg);
+    position: absolute;
+    top: -15px;
+    right: 15px;
+}
+
+/*card study*/
+.card-study {
+    background-color: hsl(348, 100%, 68%)
+}
+
+.card-study>.informations-img>img {
+    content: url(/images/icon-study.svg);
+    position: absolute;
+    top: -15px;
+    right: 15px;
+}
+
+/*card exercise*/
+
+.card-exercise {
+    background-color: hsl(145, 58%, 55%);
+}
+
+.card-exercise>.informations-img>img {
+    content: url(/images/icon-exercise.svg);
+    position: absolute;
+    top: -15px;
+    right: 15px;
+}
+
+/*card social*/
+
+.card-social {
+    background-color: hsl(264, 64%, 52%);
+}
+
+.card-social>.informations-img>img {
+    content: url(/images/icon-social.svg);
+    position: absolute;
+    top: -15px;
+    right: 15px;
+}
+
+
+/*card selfcare*/
+
+.card-selfcare {
+    background-color: hsl(43, 84%, 65%);
+}
+
+.card-selfcare>.informations-img>img {
+    content: url(/images/icon-self-care.svg);
+    position: absolute;
+    top: -15px;
+    right: 15px;
+}
